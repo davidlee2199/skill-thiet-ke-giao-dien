@@ -1,6 +1,9 @@
-# Skill thiết kế giao diện cho Claude Code
+# Skill thiết kế giao diện và viết câu chữ cho Claude Code
 
-Quy trình rà và nâng giao diện web đã dùng cho bản demo TraLuật: chụp mọi trạng thái trên máy tính và điện thoại **trước** khi sửa, xếp lỗi theo mức nặng, sửa theo lô, chụp lại một vòng, rồi mới đưa lên. Gói gồm một skill (`thiet-ke-giao-dien`) và công cụ chụp `chup.mjs` (chỉ cần Node ≥ 22 và Chrome, không cần Puppeteer).
+Gói gồm hai skill, đã dùng cho bản demo TraLuật:
+
+- **`thiet-ke-giao-dien`**: rà và nâng giao diện web có bằng chứng. Chụp mọi trạng thái trên máy tính và điện thoại **trước** khi sửa, xếp lỗi theo mức nặng, sửa theo lô, chụp lại một vòng, rồi mới đưa lên. Kèm công cụ chụp `chup.mjs` (chỉ cần Node ≥ 22 và Chrome, không cần Puppeteer).
+- **`viet-cau-chu`**: viết và rà câu chữ tiếng Việt, gồm chữ trên giao diện (nút, lỗi, trạng thái rỗng), trang giới thiệu, bài đăng, tít ảnh/video, báo cáo. Luật sàn: tiếng Việt thường thay thuật ngữ, không con số bịa, không dùng "nhất/số một" (Luật Quảng cáo), ngắt dòng tít đúng cụm, sửa số liệu mà giữ giọng.
 
 ## Cài
 
@@ -21,7 +24,7 @@ Không muốn cài dạng plugin thì chép thư mục `plugins/thiet-ke-giao-di
 
 ## Dùng
 
-Nói với Claude Code: *"coi lại UI/UX trang này cho đàng hoàng"*, *"rà giao diện trước khi đưa khách"*, *"kiểm responsive"*… Skill tự nạp.
+Nói với Claude Code: *"coi lại UI/UX trang này cho đàng hoàng"*, *"rà giao diện trước khi đưa khách"*, *"kiểm responsive"*… thì skill thiết kế tự nạp. Nói *"viết lại cho dễ hiểu"*, *"rà câu chữ"*, *"viết caption"*, *"viết bài giới thiệu"*… thì skill viết chữ tự nạp.
 
 Chụp tay:
 

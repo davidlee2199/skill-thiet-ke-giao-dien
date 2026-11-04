@@ -31,6 +31,8 @@ Mục tiêu: giao diện mà người dùng thật tin ngay, không phải dừn
 
 ## 3. Luật sàn (rút từ lỗi thật đã sửa)
 
+Chữ trên giao diện (nút, lỗi, rỗng, tiêu đề, số liệu, tít) theo skill **`viet-cau-chu`** đi cùng gói này.
+
 **Nội dung thật**
 - Không số liệu bịa hay "đẹp nhưng sai". Ví dụ đã sửa: trang ghi "< 1 giây" trong khi bản live mất 2–4 giây, phải thay bằng con số lấy thẳng từ API.
 - Không logo khách hàng, không lời khen bịa.

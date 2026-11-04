@@ -1,7 +1,7 @@
 {
   "name": "thiet-ke-giao-dien",
-  "description": "Rà và nâng giao diện web có bằng chứng: chụp mọi trạng thái trên máy tính và điện thoại, xếp lỗi, sửa theo lô, kiểm lại, rồi đưa lên. Kèm luật sàn và công cụ chụp chup.mjs.",
-  "version": "1.0.0",
+  "description": "Hai skill: thiet-ke-giao-dien (rà và nâng giao diện web có bằng chứng, kèm công cụ chụp chup.mjs) và viet-cau-chu (viết, rà câu chữ và content tiếng Việt).",
+  "version": "1.1.0",
   "author": { "name": "David Lee" },
   "license": "MIT"
 }
