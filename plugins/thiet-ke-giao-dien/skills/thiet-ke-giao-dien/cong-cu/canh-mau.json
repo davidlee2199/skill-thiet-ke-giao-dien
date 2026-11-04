@@ -1,0 +1,13 @@
+[
+  { "ten": "chu", "url": "/", "w": 1440, "h": 900, "full": true },
+  { "ten": "chu-dt", "url": "/", "w": 390, "h": 844, "mobile": true, "full": true },
+  { "ten": "tim-kq", "url": "/app#tim", "w": 1440, "h": 900,
+    "b": "await new Promise(r => setTimeout(r, 800)); const o = document.querySelector('#q'); o.value = 'bảo hiểm xã hội'; o.form.requestSubmit()",
+    "doi": "document.querySelector('.it mark')" },
+  { "ten": "tim-kq-dt", "url": "/app#tim", "w": 390, "h": 844, "mobile": true, "doi": "document.querySelector('.it')" },
+  { "ten": "chi-tiet", "url": "/app#tim", "w": 1440, "h": 900,
+    "doi": "document.querySelector('.it')", "sau": "document.querySelector('.it').click()", "doi2": "document.querySelector('.panel.on .full')" },
+  { "ten": "rong", "url": "/app#tim", "w": 1440, "h": 900,
+    "b": "await new Promise(r => setTimeout(r, 800)); const o = document.querySelector('#q'); o.value = 'xyzzy qwfp'; o.form.requestSubmit()",
+    "doi": "document.querySelector('.empty')" }
+]

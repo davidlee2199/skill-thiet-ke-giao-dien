@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-thiet-ke",
+  "version": "1.0.0",
+  "description": "Bộ skill thiết kế giao diện của David",
+  "owner": { "name": "David Lee" },
+  "plugins": [
+    {
+      "name": "thiet-ke-giao-dien",
+      "description": "Rà và nâng giao diện web có bằng chứng, kèm luật sàn và công cụ chụp chup.mjs.",
+      "version": "1.0.0",
+      "source": "./plugins/thiet-ke-giao-dien",
+      "category": "design"
+    }
+  ]
+}
